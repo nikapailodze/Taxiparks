@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="./styles/loginsyle.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__content">
+            <img src="./images/d93b956bd5ce2289b4ea5adf5e4f0edd 1.svg" alt="">
+            <div>
+                
+                    <img class="wrapper__content-logo" src="./images/Group 11005.svg" alt="">
+                    <h1>Log In to Admin Panel</h1>
+                    <p class="wrapper__content-instruction">Enter your phone number and password below</p>
+
+                    <div class="wrapper__content-innerDiv">
+                        <label  class="wrapper__content-label" for="phoneNumber">PHONE NUMBER</label>
+                        <input   class="wrapper__content-text" placeholder="Enter your phone number" id="phoneNumber" type="text">
+    
+                    </div>
+                    <div class="wrapper__content-innerDiv">
+  
+                        <label class="wrapper__content-label" for="password">PASSWORD</label>
+                        <input id="password" class="wrapper__content-text" placeholder="Enter your password" id="password" type="text">
+    
+                    </div>
+                  
+                    <input id="redirect" onclick="redirect()" value="Log In" class="wrapper__content-text wrapper__content-button" type="button">
+                    <div class="wrapper__content-signup">
+                        <p>Don't have an account?</p>
+                        <a href="">Sign Up</a>  
+                    </div>
+
+
+
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./loginScript.js"></script>
+</body>
+</html>
